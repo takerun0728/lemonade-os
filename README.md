@@ -5,7 +5,7 @@
 
 ```sh
 sudo apt install qemu-system-x86
-sudo apt install build-essential clang nasm lld uuid-dev python
+sudo apt install build-essential clang nasm lld uuid-dev pythoncd 
 git clone https://github.com/tianocore/edk2.git --recursive -b edk2-stable202011
 make -C edk2/BaseTools
 ```
